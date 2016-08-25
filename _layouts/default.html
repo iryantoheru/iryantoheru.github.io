@@ -1,1 +1,27 @@
-default
+<!DOCTYPE html>
+<html lang="id">
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="row">
+
+    {% include menu.html %}
+
+    <div class="col-6 col-m-9">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include aside.html %}
+    
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
