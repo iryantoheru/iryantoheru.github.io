@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 categories: blog
 author : Heru Iryanto
 ---

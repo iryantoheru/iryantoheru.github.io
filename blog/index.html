@@ -8,7 +8,7 @@ title: Jasa Pembuatan Website - Blog
   {% for post in site.posts %}
     <li>
       	
-      	<h2><a class="post-link" href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h2>        
+      	<h2><a class="post-link" href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} - <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a></span></h2>        
         <p>{{ post.excerpt }}</p>        
     </li>
   {% endfor %}
